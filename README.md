@@ -59,11 +59,20 @@ Software obfuscation may be implemented to serve
 - Control Flow Obfuscation
 - Preventive Transformations
 
-**TODO**: Exercise: combine two or more techniques to obfuscate a small program (also from a list using student randomness) 
+**TODO**: Exercise: Given a small program (also from a list using student randomness):
+- Implement 2–3 transformations.
+- Apply them individually and in combination.
+- Verify semantic equivalence.
+- Measure the resulting binary/program (Runtime or clock cycles)
 
-### Reverse Engineer 
+### 3.2 Reverse Engineer 
 
 **TODO**: Given an obfuscated program using some of the above techniques, write pseudocode that reveals what the program is actually doing. 
+
+## General Questions
+- Does making the program more complicated actually make it harder to reverse engineer?
+- Given the obfuscated program from section 3.2, which other obfuscating techniques would have made it harder to reverse engineer?
+
 
 ### 3.2 International Obfuscated C Code Contest (IOCCC)
 C code that is intentionally made as unreadable and confusing as possible, while remaining
